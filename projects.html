@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category"><br /></div>
+<div class="menu-category">Raaz Dwivedi</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="publications.html">Research</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="documents/resume/Raaz_CV.pdf">CV</a></div>
+</td>
+<td id="layout-content">
+<p><br />
+</p>
+<h1>Research Interests</h1>
+<p>My research interests center around developing a theoretical understanding of
+algorithms used in statistics, optimization and machine learning. In the past, 
+I have worked on theoretical guarantees for the EM algorithm and optimization
+based sampling algorithms. More recently, I have also developed interest in
+the theory of neural networks.
+</p>
+<p>During my undergrad, I explored several areas of Electrical Engineering including Devices and Circuits, Signal Processing and later I got interested in Stochastic Approximation and high dimensional statistics.
+</p>
+<p>Below, I have listed a few minor projects not directly associated with my
+major interests, with links to the related reports.
+
+
+
+
+</p>
+<h2>Past Projects</h2>
+<ul>
+<li><p><b>Review of Statistical Analysis of Numerical Preclinical Radio-biological Data</b>
+This work reproduces tests and results presented by Pitt and Hill and discusses some other non- parametric techniques, such as Permutation Tests, which allow to analyze data with less restrictive assumptions. The focus of the review is on the statistical methodology rather than the underlying biological aspects and assumptions of the original work, which are not discussed. Although not expert in statistical methods for fraud detection, we do believe that permutation tests are promising in this context, as demonstrated by the results presented here. This review was developed as a term project for a Graduate Level Course on Statistical Models at UC Berkeley and was published at ScienceOpen (link).
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Naturalistic Image Synthesis Using Variational Auto-Encoder</b>
+We develop a deep generative model for naturalistic image synthesis using variational auto-encoders (VAE). Our model uses convolutional and fully-connected layers and includes an l2 loss on features extracted from a VGGNet that was pre-trained for classification on ImageNet dataset. Feature loss is used to enahance ‘naturality’ in the visual appeal of the images. These deviate from the traditional fully-connected models that use only pixel and latent loss for training VAEs. We show that use of convolutional layers in the model improves the performance for reconstruction and generation of images from the trained network. Although we obtain good results for MNIST hand- written digits dataset, we were unable to generate realistic images using the diverse CIFAR-10 dataset. Furthermore, we could not conclude if incorporating feature consistency in the loss function led to better results. Hence, our results deviate from the findings presented in a recent paper by Hou et al., where the authors used CelebFaces Attributes (CelebA) dataset, and showed that incorporating feature loss from a pre-trained VGGNet helped their VAE generate more realistic images compared to the existing models in the literature.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>A Closer Look at System Identification: Review, Modifications and Comparisons</b>
+System identification (ID) is one of the classical problems studied in control theory. The purpose of system ID is two folds: identify the unknown parameters that govern the system, and perform optimal control with respect to a user specified cost. In this work, we study the classical work done in the space of system ID, in particular, celebrated offline and online schemes that have been analyzed theoretically. We introduce to the readers the difference between these schemes, compare and remark the differences between the performance attained using the different schemes. To keep the discussion insightful and detailed, we specialize the analysis to simple one-dimensional linear systems when needed. To our surprise analyzing the SISO systems is still an active area of research. For some simple cases, e.g., tracking problem, we improve the existing results reported in the works we study. Furthermore, we present numerical experiments that align with the rates of convergence presented in this work.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Asynchronous Parallel Optimization</b>:
+Stochastic Gradient Method (SGM) is a popular algorithm in the area of optimization and machine learning. With the tremendous increase in the size of the problems due to the large datasets associated, there has been a surge in efforts to parallelize this scheme. Such schemes suffer from the synchronization step, which kills the speed up gained from distributing the
+work. In this project, we analyze a novel asynchronous algorithm for optimization of convex functions. Our scheme is inspired by the seminal work Hogwild! by Recht B. et al, where the authors propose an asynchronous, lock-free and parallel SGM algorithm. In particular, they showed convergence and speed up results for sum of convex functions, where each function depended only on a small subset of variables. We relax the assumption of such a ‘sparse relation’
+between the functions and the variables by proposing a new step in SGM. Through numerical experiments, we demonstrate the speedup of our algorithm for an ordinary least squares problem compared to serial SGM and Hogwild!.
+<a href="documents/rahan/rahan.pdf" target=&ldquo;blank&rdquo;>Report</a>, <a href="documents/rahan/poster.pdf" target=&ldquo;blank&rdquo;>Poster presented at UC Berkeley</a>
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Convex Relaxations of Constraint Satisfactions Problems</b>: The aims of the report are threefold. (1) Introduce the reader to the Constraint Satisfaction Problem (CSP) framework. (2) Equip the reader with “tractable tools” from convex optimization (and randomized algorithms) to find a “good” solution. This is done in a wholesome fashion since we don’t leave for the reader to implement the schemes but in fact demonstrate them in our numerical section. (3) Introduce some of the optimal approximation schemes in literature and comment on their computational aspects. <a href="documents/csp/report.pdf" target=&ldquo;blank&rdquo;>Report</a>, <a href="documents/csp/slides.pdf" target=&ldquo;blank&rdquo;>Slides</a>
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Gaussian Projections in high dimension estimation</b>: <a href="documents/btp/btp2.pdf" target=&ldquo;blank&rdquo;>Undergraduate Thesis</a>
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Particle Swarm Optimization</b>: <a href="documents/btp/pso.pdf" target=&ldquo;blank&rdquo;>Report</a>
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Recommendation Systems</b>: <a href="documents/btp/spcom.pdf" target=&ldquo;blank&rdquo;>Paper accepted in SPCOM 2014</a>, <a href="documents/btp/slidesborkar.pdf" target=&ldquo;blank&rdquo;>Slides presented by Prof. Vivek Borkar at SPCOM 2014</a>, <a href="documents/btp/poster1.pdf" target=&ldquo;blank&rdquo;>Poster presented at IIT Bombay</a>
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Charge Behavior in Organic Solar Cells</b>: <a href="http://absimage.aps.org/image/MAR13/MWS_MAR13-2012-003685.pdf" target=&ldquo;blank&rdquo;>Abstract Submitted for the March 2013 Meeting of The American Physical Society</a>
+</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2021-07-16 10:41:36 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
