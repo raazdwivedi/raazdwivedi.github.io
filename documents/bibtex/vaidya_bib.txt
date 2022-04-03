@@ -1,0 +1,8 @@
+@inproceedings{chen2017vaidya,
+  title={Vaidya walk: A sampling algorithm based on the volumetric barrier},
+  author={Chen, Yuansi and Dwivedi, Raaz and Wainwright, Martin J and Yu, Bin},
+  booktitle={2017 55th Annual Allerton Conference on Communication, Control, and Computing (Allerton)},
+  pages={1220--1227},
+  year={2017},
+  organization={IEEE}
+}

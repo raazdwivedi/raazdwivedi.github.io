@@ -1,0 +1,9 @@
+@article{borkar2016gaussian,
+  title={Gaussian approximations in high dimensional estimation},
+  author={Borkar, Vivek S and Dwivedi, Raaz and Sahasrabudhe, Neeraja},
+  journal={Systems \& Control Letters},
+  volume={92},
+  pages={42--45},
+  year={2016},
+  publisher={Elsevier}
+}

@@ -1,0 +1,10 @@
+@article{chen2018fast,
+  title={Fast MCMC sampling algorithms on polytopes},
+  author={Chen, Yuansi and Dwivedi, Raaz and Wainwright, Martin J and Yu, Bin},
+  journal={The Journal of Machine Learning Research},
+  volume={19},
+  number={1},
+  pages={2146--2231},
+  year={2018},
+  publisher={JMLR. org}
+}

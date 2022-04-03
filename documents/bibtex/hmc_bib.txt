@@ -1,0 +1,8 @@
+@article{chen2020fast,
+  title={Fast mixing of Metropolized Hamiltonian Monte Carlo: Benefits of multi-step gradients.},
+  author={Chen, Yuansi and Dwivedi, Raaz and Wainwright, Martin J and Yu, Bin},
+  journal={J. Mach. Learn. Res.},
+  volume={21},
+  pages={92--1},
+  year={2020}
+}

@@ -1,0 +1,8 @@
+@inproceedings{dwivedi2018log,
+  title={Log-concave sampling: Metropolis-Hastings algorithms are fast!},
+  author={Dwivedi, Raaz and Chen, Yuansi and Wainwright, Martin J and Yu, Bin},
+  booktitle={Conference on learning theory},
+  pages={793--797},
+  year={2018},
+  organization={PMLR}
+}

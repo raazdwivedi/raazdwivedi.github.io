@@ -1,0 +1,7 @@
+@article{dwivedi2018theoretical,
+  title={Theoretical guarantees for EM under misspecified Gaussian mixture models},
+  author={Dwivedi, Raaz and Khamaru, Koulik and Wainwright, Martin J and Jordan, Michael I and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={31},
+  year={2018}
+}

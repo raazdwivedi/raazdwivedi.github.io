@@ -1,0 +1,9 @@
+@phdthesis{Dwivedi:EECS-2021-180,
+    Author = {Dwivedi, Raaz},
+    Title = {Principled Statistical Approaches For Sampling and Inference in High Dimensions},
+    School = {EECS Department, University of California, Berkeley},
+    Year = {2021},
+    Month = {Aug},
+    URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-180.html},
+    Number = {UCB/EECS-2021-180},
+}

@@ -1,0 +1,9 @@
+@article{dwivedi2020stable,
+  title={Stable discovery of interpretable subgroups via calibration in causal studies},
+  author={Dwivedi, Raaz and Tan, Yan Shuo and Park, Briton and Wei, Mian and Horgan, Kevin and Madigan, David and Yu, Bin},
+  journal={International Statistical Review},
+  volume={88},
+  pages={S135--S178},
+  year={2020},
+  publisher={Wiley Online Library}
+}

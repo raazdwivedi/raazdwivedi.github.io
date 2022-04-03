@@ -1,0 +1,6 @@
+@article{dwivedi2022counterfactual,
+  title={Counterfactual inference for sequential experimental design},
+  author={Dwivedi, Raaz and Murphy, Susan and Shah, Devavrat},
+  journal={arXiv preprint arXiv:2202.06891},
+  year={2022}
+}

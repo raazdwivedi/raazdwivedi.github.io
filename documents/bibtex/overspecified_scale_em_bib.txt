@@ -1,0 +1,8 @@
+@inproceedings{dwivedi2020sharp,
+  title={Sharp analysis of expectation-maximization for weakly identifiable models},
+  author={Dwivedi, Raaz and Ho, Nhat and Khamaru, Koulik and Wainwright, Martin and Jordan, Michael and Yu, Bin},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={1866--1876},
+  year={2020},
+  organization={PMLR}
+}

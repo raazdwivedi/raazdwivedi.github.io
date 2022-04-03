@@ -1,0 +1,6 @@
+@article{ho2020instability,
+  title={Instability, computational efficiency and statistical accuracy},
+  author={Ho, Nhat and Khamaru, Koulik and Dwivedi, Raaz and Wainwright, Martin J and Jordan, Michael I and Yu, Bin},
+  journal={arXiv preprint arXiv:2005.11411},
+  year={2020}
+}

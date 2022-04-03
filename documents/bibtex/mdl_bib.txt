@@ -1,0 +1,6 @@
+@article{dwivedi2020revisiting,
+  title={Revisiting minimum description length complexity in overparameterized models},
+  author={Dwivedi, Raaz and Singh, Chandan and Yu, Bin and Wainwright, Martin J},
+  journal={arXiv preprint arXiv:2006.10189},
+  year={2020}
+}

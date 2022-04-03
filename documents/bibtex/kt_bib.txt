@@ -1,0 +1,6 @@
+@article{dwivedi2021kernel,
+  title={Kernel thinning},
+  author={Dwivedi, Raaz and Mackey, Lester},
+  journal={arXiv preprint arXiv:2105.05842},
+  year={2021}
+}

@@ -1,0 +1,10 @@
+@article{dwivedi2020singularity,
+  title={Singularity, misspecification and the convergence rate of EM},
+  author={Dwivedi, Raaz and Ho, Nhat and Khamaru, Koulik and Wainwright, Martin J and Jordan, Michael I and Yu, Bin},
+  journal={The Annals of Statistics},
+  volume={48},
+  number={6},
+  pages={3161--3182},
+  year={2020},
+  publisher={Institute of Mathematical Statistics}
+}
