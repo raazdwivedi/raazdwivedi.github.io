@@ -54,7 +54,8 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="publications_chronological.html">Research&nbsp;(by&nbsp;year)</a></div>
 <div class="menu-item"><a href="publications.html" class="current">Research&nbsp;(by&nbsp;topic)</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-item"><a href="documents/resume/Raaz_CV.pdf">CV</a></div>
+<div class="menu-item"><a href="documents/resume/Raaz_CV.pdf">CV&nbsp;(detailed)</a></div>
+<div class="menu-item"><a href="documents/resume/Raaz_CV_one_page.pdf">CV&nbsp;(abridged)</a></div>
 </td>
 <td id="layout-content">
 <p><br />
@@ -83,7 +84,7 @@ MathJax.Hub.Config({
 <p>A superscript \(\star\) denotes equal contribution and joint first-authorship, and \(\ddagger\) denotes alphabetical ordering. 
 </p>
 <ul>
-<li><p>Clicking on the abstract button expands in place and displays the abstract of the article on this webpage itself; while other buttons lead to a new webpage.
+<li><p><b>Clicking on the abstract button displays the abstract of the article on this webpage itself</b>; while other buttons lead to a new webpage.
 </p>
 </li>
 <li><p>See also <a href="https://scholar.google.com/citations?user=9ehX_58AAAAJ&amp;hl=en" target=&ldquo;blank&rdquo;>google scholar profile</a>.
@@ -166,15 +167,14 @@ Abhishek Shetty, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
 <i> To appear in International Conference in Learning Representations (ICLR), 2022 </i> <br/>
 [<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
 [<a href="https://arxiv.org/abs/2111.07941">paper</a>]
-[<a href="documents/bibtex/gkt_bib.txt">bibtex</a>] 
+[<a href="documents/bibtex/compress_bib.txt">bibtex</a>] 
 [<a href="https://github.com/microsoft/goodpoints">code</a>] 
 ||
-[<a href="documents/slides_poster/gkt_compress_slides.pdf">slides</a>]
-[<a href="documents/slides_poster/gkt_compress_poster.pdf">poster</a>]
+[<a href="documents/slides_poster/near_optimal_slides.pdf">slides</a>]
 [<a href="https://www.msri.org/workshops/1020/schedules/31041">video</a>]
 <br/><br/>
 <div class="abs">
-<b>Abstract.</b> The kernel thinning (KT) algorithm of Dwivedi and Mackey (2021) compresses a probability distribution more effectively than independent sampling by targeting a reproducing kernel Hilbert space (RKHS) and leveraging a less smooth square-root kernel. Here we provide four improvements.  First, we show that KT applied directly to the target RKHS yields tighter, dimension-free guarantees for any kernel, any distribution, and any fixed function in the RKHS. Second, we show that, for analytic kernels like Gaussian, inverse multiquadric, and sinc, target KT admits maximum mean discrepancy (MMD) guarantees comparable to or better than those of square-root KT without making explicit use of a square-root kernel.  Third, we prove that KT with a fractional power kernel yields better-than-Monte-Carlo MMD guarantees for non-smooth kernels, like Laplace and Mat\'ern, that do not have square-roots. Fourth, we establish that KT applied to a sum of the target and power kernels (a procedure we call KT+) simultaneously inherits the improved MMD guarantees of power KT and the tighter individual function guarantees of target KT.  In our experiments with target KT and KT+, we witness significant improvements in integration error even in $100$ dimensions and when compressing challenging differential equation posteriors.
+<b>Abstract.</b> In distribution compression, one aims to accurately summarize a probability distribution $\mathbb{P}$ using a small number of representative points. Near-optimal thinning procedures achieve this goal by sampling $n$ points from a Markov chain and identifying $\sqrt{n}$ points with $\widetilde{\mathcal{O}}(1/\sqrt{n})$ discrepancy to $\mathbb{P}$. Unfortunately, these algorithms suffer from quadratic or super-quadratic runtime in the sample size $n$. To address this deficiency, we introduce Compress++, a simple meta-procedure for speeding up any thinning algorithm while suffering at most a factor of $4$ in error. When combined with the quadratic-time kernel halving and kernel thinning algorithms of Dwivedi and Mackey (2021), Compress++ delivers $\sqrt{n}$ points with $\mathcal{O}(\sqrt{\log n/n})$ integration error and better-than-Monte-Carlo maximum mean discrepancy in $\mathcal{O}(n \log^3 n)$ time and  $\mathcal{O}( \sqrt{n} \log^2 n )$ space. Moreover, Compress++ enjoys the same near-linear runtime given any quadratic-time input and reduces the runtime of super-quadratic algorithms by a square-root factor. In our benchmarks with high-dimensional Monte Carlo samples and Markov chains targeting challenging differential equation posteriors, Compress++ matches or nearly matches the accuracy of its input algorithm in orders of magnitude less time.
 </div>
 </li>
 
@@ -577,7 +577,7 @@ Vivek Borkar$^\ddagger$, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Neeraja Sahasrabudh
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-05-06 18:44:00 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-05-06 21:34:34 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
