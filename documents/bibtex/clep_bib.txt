@@ -1,6 +1,11 @@
-@article{altieri2020curating,
-  title={Curating a COVID-19 data repository and forecasting county-level death counts in the United States},
-  author={Altieri, Nick and Barter, Rebecca L and Duncan, James and Dwivedi, Raaz and Kumbier, Karl and Li, Xiao and Netzorg, Robert and Park, Briton and Singh, Chandan and Tan, Yan Shuo and others},
-  journal={arXiv preprint arXiv:2005.07882},
-  year={2020}
+@article{altieri2021Curating,
+  author = {Altieri, Nicholas and Barter, Rebecca L and Duncan, James and Dwivedi, Raaz and Kumbier, Karl and Li, Xiao and Netzorg, Robert and Park, Briton and Singh, Chandan and Tan, Yan Shuo and Tang, Tiffany and Wang, Yu and Zhang, Chao and Yu, Bin},
+  journal = {Harvard Data Science Review},
+  number = {Special Issue 1},
+  year = {2021},
+  month = {feb 8},
+  note = {https://hdsr.mitpress.mit.edu/pub/p6isyf0g},
+  publisher = {},
+  title = {Curating a {COVID}-19 {Data} {Repository} and {Forecasting} {County}-{Level} {Death} {Counts} in the {United} {States}},
+  volume = { },
 }
