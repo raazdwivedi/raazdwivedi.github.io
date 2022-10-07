@@ -112,14 +112,35 @@ MathJax.Hub.Config({
 
 
 </ul>
-<h2>Causal Inference</h2>
+<h2>Causal Inference and diagnostics</h2>
 <ul>
 
 
+<li>
+<b> Doubly Robust Nearest Neighbors for Factor Models </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>, Katerine Tian, Sabina Tomkins, Predrag Klasnja, Susan Murphy,  Devavrat Shah <br/>
+<i> Coming soon, 2022 </i> <br/>
+<br/><br/>
+</li>
+
+<li>
+<b> Deep Dive into assessing personalization </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi$^\star$</i>, Kelly Zhang$^\star$, Prasidh Chhabria, Predrag Klasnja, Susan Murphy <br/>
+<i> Coming soon, 2022 </i> <br/>
+<br/><br/>
+</li>
+
+
+<li>
+<b> On counterfactual inference with unobserved confounding </b> <br/>
+<i> Abhin Shah, <b>R</b>aaz <b>D</b>wivedi</i>, Devavrat Shah, Gregory Wornell <br/>
+<i> Coming soon, 2022 </i> <br/>
+<br/><br/>
+</li>
 
 <li>
 <b> Counterfactual inference in sequential experimental design </b> <br/>
-<i> <b>R</b>aaz <b>D</b>wivedi</i>, Devavrat Shah, Susan Murphy <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>, Katerine Tian, Sabina Tomkins, Predrag Klasnja, Susan Murphy,  Devavrat Shah <br/>
 <i> arxiv preprint, 2022 </i> <br/>
 [<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
 [<a href="https://arxiv.org/abs/2006.10189">paper</a>] 
@@ -128,6 +149,7 @@ MathJax.Hub.Config({
 [<a href="documents/slides_poster/counterfactual_poster.pdf">poster</a>]  
 [<a href="https://www.youtube.com/watch?v=X5bhzwtPLM8">video</a>]
 <br/><br/>
+
 
 <div class="abs">
 <b>Abstract.</b> We consider the problem of counterfactual inference in sequentially designed experiments wherein a collection of $\mathbf{N}$ units each undergo a sequence of interventions for $\mathbf{T}$ time periods, based on policies that sequentially adapt over time. Our goal is counterfactual inference, i.e., estimate what would have happened if alternate policies were used, a problem that is inherently challenging due to the heterogeneity in the outcomes across units and time. To tackle this task, we introduce a suitable latent factor model where the potential outcomes are determined by exogenous unit and time level latent factors. Under suitable conditions, we show that it is possible to estimate the missing (potential) outcomes using a simple variant of nearest neighbors. First, assuming a bilinear latent factor model and allowing for an arbitrary adaptive sampling policy, we establish a distribution-free non-asymptotic guarantee for estimating the missing outcome of \emph{any} unit at \emph{any} time; under suitable regularity condition, this guarantee implies that our estimator is consistent. Second, for a generic non-parametric latent factor model, we establish that the estimate for the missing outcome of any unit at time $\mathbf{T}$ satisfies a central limit theorem as $\mathbf{T} \to \infty$, under suitable regularity conditions. Finally, en route to establishing this central limit theorem, we establish a non-asymptotic mean-squared-error bound for the estimate of the missing outcome of any unit at time $\mathbf{T}$. Our work extends the recently growing literature on inference with adaptively collected data by allowing for policies that pool across units, and also compliments the matrix completion literature when the entries are revealed sequentially in an arbitrarily dependent manner based on prior observed data.
@@ -161,6 +183,24 @@ MathJax.Hub.Config({
 <ul>
 
 
+
+
+
+<li>
+<b> Compress Then Test: Powerful Kernel Testing in Near-linear Time </b> <br/>
+<i> Carles Domingo-Enrich, <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
+<i> Coming soon, 2022 </i> <br/>
+<br/><br/>
+</li>
+
+<li>
+<b> CHAI: CHeap Accurate Intervals </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>, Abhishek Shetty, Lester Mackey <br/>
+<i> Working paper </i> <br/>
+<br/><br/>
+</li>
+
+
 <li>
 <b> Distribution Compression in Near-Linear Time </b> <br/>
 Abhishek Shetty, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
@@ -180,7 +220,7 @@ Abhishek Shetty, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
 
 
 <li>
-<b> Generalized Kernel thinning </b> <br/>
+<b> Generalized Kernel Thinning </b> <br/>
 <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
 <i> To appear in International Conference in Learning Representations (ICLR), 2022 </i> <br/>
 [<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
@@ -199,7 +239,7 @@ Abhishek Shetty, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
 
 
 <li>
-<b> Kernel thinning </b> <br/>
+<b> Kernel Thinning </b> <br/>
 <i> <b>R</b>aaz <b>D</b>wivedi</i>, Lester Mackey <br/>
 <i> Extended abstract, Conference on Learning Theory (COLT), 2021 </i> <br/>
 [<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
@@ -577,7 +617,7 @@ Vivek Borkar$^\ddagger$, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Neeraja Sahasrabudh
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-05-08 00:13:44 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-10-07 14:12:24 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
