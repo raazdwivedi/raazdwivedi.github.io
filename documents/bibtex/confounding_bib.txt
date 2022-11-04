@@ -1,0 +1,5 @@
+@inproceedings{shah2022counterfactual,
+  title={On counterfactual inference with unobserved confounding},
+  author={Shah, Abhin and Dwivedi, Raaz and Shah, Devavrat and Wornell, Gregory},
+  booktitle={NeurIPS 2022 Workshop on Causality for Real-world Impact}
+}

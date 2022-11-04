@@ -126,8 +126,17 @@ MathJax.Hub.Config({
 <li>
 <b> On counterfactual inference with unobserved confounding </b> <br/>
 <i> Abhin Shah, <b>R</b>aaz <b>D</b>wivedi</i>, Devavrat Shah, Gregory Wornell <br/>
-<i> Coming soon, Neurips Workshop 2022 </i> <br/>
-<br/>
+<i> NeurIPS Workshop on Causality for Real-world Impact, 2022 </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://openreview.net/pdf?id=e9NQvYNUOAl">paper</a>] 
+[<a href="documents/bibtex/confounding_bib.txt">bibtex</a>] ||
+[<a href="documents/slides_poster/confounding_slides.pdf">slides</a>]
+<br/><br/>
+
+
+<div class="abs">
+<b>Abstract.</b> Given an observational study with $n$ independent but heterogeneous units and one $p$-dimensional sample per unit containing covariates, interventions, and outcomes, our goal is to learn counterfactual distribution for each unit. We consider studies with unobserved confounding which introduces statistical biases between interventions and outcomes as well as exacerbates the heterogeneity across units. Modeling the underlying joint distribution as an exponential family and under suitable conditions, we reduce learning the $n$ unit-level counterfactual distributions to learning $n$ exponential family distributions with heterogeneous parameters and only one sample per distribution. We introduce a convex objective that pools all $n$ samples to jointly learn all $n$ parameters and provide a unit-wise mean squared error bound that scales linearly with the metric entropy of the parameter space. For example, when the parameters are $s$-sparse linear combination of $k$ known vectors, the error is $O(s\log k/p)$. En route, we derive sufficient conditions for compactly supported distributions to satisfy the logarithmic Sobolev inequality.
+</div>
 </li>
 
 <li>
@@ -602,7 +611,7 @@ Vivek Borkar$^\ddagger$, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Neeraja Sahasrabudh
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-10-28 15:43:20 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-11-03 20:42:55 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
