@@ -53,7 +53,8 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="publications.html" class="current">Publications</a></div>
 <div class="menu-item"><a href="documents/resume/Raaz_CV.pdf">CV</a></div>
-<div class="menu-item"><a href="documents/statements/Raaz_research.pdf">Research&nbsp;St.</a></div>
+<div class="menu-item"><a href="documents/statements/Raaz_research_short.pdf">Res.&nbsp;St.&nbsp;Short</a></div>
+<div class="menu-item"><a href="documents/statements/Raaz_research_long.pdf">Res.&nbsp;St.&nbsp;Long</a></div>
 <div class="menu-item"><a href="documents/statements/Raaz_teaching.pdf">Teaching&nbsp;St.</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching&nbsp;Ex.</a></div>
 </td>
@@ -65,19 +66,16 @@ MathJax.Hub.Config({
 <p>I collect the papers below categorized by the following research topics:
 </p>
 <ul>
-<li><p>Causal Inference
+<li><p>Causal Inference and 
 </p>
 </li>
 <li><p>Data Compression
 </p>
 </li>
+<li><p>Prediction and Statistical Inference
+</p>
+</li>
 <li><p>Markov Chain Monte Carlo
-</p>
-</li>
-<li><p>High-Dimensional Prediction, Inference, and Estimation
-</p>
-</li>
-<li><p>Mixture Modeling.
 </p>
 </li>
 </ul>
@@ -104,7 +102,7 @@ MathJax.Hub.Config({
 
 
 </ul>
-<h2>Causal Inference and diagnostics</h2>
+<h2>Causal Inference and Diagnostics</h2>
 <ul>
 
 
@@ -280,6 +278,174 @@ we suggest an improved and simplified strategy which we conjecture to guarantee 
 
 
 </ul>
+<h2>Prediction and Statistical inference </h2>
+<ul>
+
+
+<li>
+<b> Revisiting Minimum Description Length Complexity in Overparameterized Models </b> <br/>
+ <i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Chandan  Singh$^\star$, Bin Yu, Martin Wainwright <br/>
+<i> Accepted with minor revision at Journal of Machine Learning Research, 2022+ </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://arxiv.org/abs/2006.10189">paper</a>] 
+[<a href="documents/bibtex/mdl_bib.txt">bibtex</a>] 
+[<a href="https://github.com/csinva/mdl-complexity">code</a>]
+||
+[<a href="documents/slides_poster/mdl_slides.pdf">slides</a>]
+[<a href="documents/slides_poster/mdl_poster.pdf">poster</a>]
+[<a href="https://www.youtube.com/watch?v=P4S-JQ_fSdo">video</a>]
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> Complexity is a fundamental concept underlying statistical learning theory that aims to inform generalization performance. Parameter count, while successful in low-dimensional settings, is not well-justified for overparameterized settings when the number of parameters is more than the number of training samples. We revisit complexity measures based on Rissanen's principle of minimum description length (MDL) and define a novel MDL-based complexity (MDL-COMP) that remains valid for overparameterized models. MDL-COMP is defined via an optimality criterion over the encodings induced by a good Ridge estimator class.
+We provide an extensive theoretical characterization of MDL-COMP for linear models and kernel methods and show that it is not just a function of parameter count, but rather a function of the singular values of the design or the kernel matrix and the signal-to-noise ratio.
+
+For a linear model with $n$ observations, $d$ parameters, and i.i.d. Gaussian predictors, MDL-COMP scales linearly with $d$ when $d < n$, but the scaling is exponentially smaller---$\log d$ for $d > n$. For kernel methods, we show that MDL-COMP informs minimax in-sample error, and can decrease as the dimensionality of the input increases. We also prove that MDL-COMP upper bounds the in-sample mean squared error (MSE). Via an array of simulations and real-data experiments, we show that a data-driven Prac-MDL-COMP informs hyper-parameter tuning for optimizing test MSE with ridge regression in limited data settings, sometimes improving upon cross-validation and (always) saving computational costs. Finally, our findings also suggest that the recently observed double decent phenomenons in overparameterized models might be a consequence of the choice of non-ideal estimators.
+</div>
+</li>
+
+
+<li>
+<b> Instability, Computational Efficiency, and Statistical Accuracy </b> <br/>
+Nhat Ho$^\star$, Koulik Khamaru$^\star$, <i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Michael Jordan, Martin Wainwright, Bin Yu <br/>
+ <i> Accepted with minor revision at Journal of Machine Learning Research, 2022+ </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://arxiv.org/abs/2005.11411">paper</a>] 
+[<a href="documents/bibtex/instability_bib.txt">bibtex</a>] ||
+[<a href="documents/slides_poster/instability_slides.pdf">slides</a>]
+[<a href="documents/slides_poster/overspecified_em_poster.pdf">poster</a>] 
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> Many statistical estimators are defined as the fixed point of a
+  data-dependent operator, with estimators based on minimizing a
+  cost function being an important special case.  The limiting
+  performance of such estimators depends on the properties of the
+  population-level operator in the idealized limit of infinitely many
+  samples.  We develop a general framework that yields bounds on
+  statistical accuracy based on the interplay between the
+  deterministic convergence rate of the algorithm at the population
+  level, and its degree of (in)stability when applied to an empirical
+  object based on $n$ samples.  Using this framework, we analyze both
+  stable forms of gradient descent and some higher-order and unstable
+  algorithms, including Newton's method and its cubic-regularized
+  variant, as well as the EM algorithm. We provide applications of our
+  general results to several concrete classes of models, including
+  Gaussian mixture estimation, non-linear regression models, and informative
+  non-response models.  We exhibit cases in which an unstable
+  algorithm can achieve the same statistical accuracy as a stable
+  algorithm in exponentially fewer steps---namely, with the number of
+  iterations being reduced from polynomial to logarithmic in sample
+  size $n$.
+</div>
+</li>
+
+
+
+<li>
+<b> Curating a COVID-19 Data Repository and Forecasting County-Level Death Counts in the United States </b> <br/>
+Nick Altieri$^{\ddagger}$, Rebecca Barter, James Duncan, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Karl Kumbier, Xiao Li, Robert Netzorg, Briton Park, Chandan Singh, Yan Shuo Tan, Tiffany Tang, Yu Wang, Chao Zhang, Bin Yu <br/>
+<i> Harvard Data Science Review, 2020 </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://hdsr.mitpress.mit.edu/pub/p6isyf0g/release/4">paper</a>] 
+[<a href="documents/bibtex/clep_bib.txt">bibtex</a>] 
+[<a href="https://covidseverity.com/">website</a>]
+||
+[<a href="documents/slides_poster/clep_slides.pdf">slides</a>]
+[<a href="documents/slides_poster/clep_poster.pdf">poster</a>]
+[<a href="https://www.youtube.com/watch?v=HKIb0HQ3mfU">video</a>]
+[<a href="https://covidseverity.com/assets/blog/">blog</a>]
+[<a href="https://engineering.berkeley.edu/news/2020/04/getting-the-right-equipment-to-the-right-people/">news</a>]
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> Building on Yu and Kumbier's PCS framework and for randomized experiments, we introduce a novel methodology for Stable Discovery of Interpretable Subgroups via Calibration (StaDISC), with large heterogeneous treatment effects. StaDISC was developed during our re-analysis of the 1999-2000 VIGOR study, an 8076 patient randomized controlled trial (RCT), that compared the risk of adverse events from a then newly approved drug, Rofecoxib (Vioxx), to that from an older drug Naproxen. Vioxx was found to, on average and in comparison to Naproxen, reduce the risk of gastrointestinal (GI) events but increase the risk of thrombotic cardiovascular (CVT) events. Applying StaDISC, we fit 18 popular conditional average treatment effect (CATE) estimators for both outcomes and use calibration to demonstrate their poor global performance. However, they are locally well-calibrated and stable, enabling the identification of patient groups with larger than (estimated) average treatment effects. In fact, StaDISC discovers three clinically interpretable subgroups each for the GI outcome (totaling 29.4\% of the study size) and the CVT outcome (totaling 11.0\%).  Complementary analyses of the found subgroups using the 2001-2004 APPROVe study, a separate independently conducted RCT with 2587 patients, provides further supporting evidence for the promise of StaDISC.
+</div>
+</li> 
+
+
+<li>
+<b> Sharp Analysis of Expectation-Maximization for Weakly Identifiable Mixture Models </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
+<i> International Conference on Artificial Intelligence and Statistics (AISTATS) 23, 2020 </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://arxiv.org/abs/1902.00194">paper</a>]
+[<a href="documents/bibtex/overspecified_scale_em_bib.txt">bibtex</a>] ||
+[<a href="documents/slides_poster/overspecified_scale_em_slides.pdf">slides</a>]
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> 
+We study a class of weakly identifiable location-scale mixture models for which the maximum likelihood estimates based on $n$ i.i.d. samples are known to have lower accuracy than the classical  $n^{- \frac{1}{2}}$ error. We investigate whether the  Expectation-Maximization (EM) algorithm also converges slowly for these models.  We provide a rigorous characterization of EM for fitting a weakly identifiable Gaussian mixture in a univariate setting where we prove that the EM algorithm converges in order $n^{\frac{3}{4}}$ steps and returns estimates that are at a Euclidean distance of order ${ n^{- \frac{1}{8}}}$ and ${ n^{-\frac{1} {4}}}$ from the true location and scale parameter respectively. Establishing the slow rates in the univariate setting requires a novel localization argument with two stages, with each stage involving an epoch-based argument applied to a different surrogate EM operator at the population level.  We demonstrate several multivariate ($d \geq 2$) examples that exhibit the same slow rates as the univariate case. We also prove slow statistical rates in higher dimensions in a special case, when the fitted covariance is constrained to be a multiple of the identity.
+</div>
+</li>
+
+<li>
+<b> Singularity, Misspecification and the Convergence Rate of EM </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
+<i> Annals of Statistics, Volume 48, Number 6 (2020), 3161-3182 </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="https://arxiv.org/abs/1810.00828">paper</a>]
+[<a href="documents/bibtex/overspecified_em_bib.txt">bibtex</a>] ||
+ [<a href="documents/slides_poster/overspecified_em_slides.pdf">slides</a>]
+[<a href="documents/slides_poster/overspecified_em_poster.pdf">poster</a>]
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> A line of recent work has analyzed the behavior of the
+Expectation-Maximization (EM) algorithm in the well-specified setting,
+in which the population likelihood is locally strongly concave around
+its maximizing argument.  Examples include suitably separated Gaussian
+mixture models and mixtures of linear regressions.  We consider
+over-specified settings in which the number of fitted components is
+larger than the number of components in the true distribution. Such
+mis-specified settings can lead to singularity in the Fisher
+information matrix, and moreover, the maximum likelihood estimator
+based on $n$ i.i.d. samples in $d$ dimensions can have a non-standard
+$\mathcal{O}((d/n)^{\frac{1}{4}})$ rate of convergence.  Focusing on
+the simple setting of two-component mixtures fit to a $d$-dimensional
+Gaussian distribution, we study the behavior of the EM algorithm both
+when the mixture weights are different (unbalanced case), and are
+equal (balanced case). Our analysis reveals a sharp distinction
+between these two cases: in the former, the EM algorithm converges
+geometrically to a point at Euclidean distance of
+$\mathcal{O}((d/n)^{\frac{1}{2}})$ from the true parameter, whereas in
+the latter case, the convergence rate is exponentially slower, and the
+fixed point has a much lower $\mathcal{O}((d/n)^{\frac{1}{4}})$
+accuracy.  Analysis of this singular case requires the introduction of
+some novel techniques: in particular, we make use of a careful form of
+localization in the associated empirical process, and develop a
+recursive argument to progressively sharpen the statistical rate.
+</div>
+</li>
+
+
+<li>
+<b> Theoretical Guarantees for EM Under Misspecified Gaussian Mixture Models </b> <br/>
+<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
+<i> Advances in Neural Information Processing Systems (NeurIPS) 32, 2018 </i> <br/>
+[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
+[<a href="http://papers.nips.cc/paper/8176-theoretical-guarantees-for-em-under-misspecified-gaussian-mixture-models">paper</a>]
+[<a href="documents/bibtex/misspecified_em_bib.txt">bibtex</a>] ||
+[<a href="documents/slides_poster/misspecified_em_poster.pdf">poster</a>]
+<br/><br/>
+<div class="abs">
+<b>Abstract.</b> Recent years have witnessed substantial progress in understanding
+  the behavior of EM for mixture models that are correctly specified.
+  Given that model mis-specification is common in practice, it is
+  important to understand EM in this more general setting.  We provide
+  non-asymptotic guarantees for the population and sample-based EM
+  algorithms when used to estimate parameters of certain mis-specified
+  Gaussian mixture models.  Due to mis-specification, the EM iterates
+  no longer converge to the true model and instead converge to the
+  projection of the true model onto the fitted model class.  We
+  provide two classes of theoretical guarantees: (a) a
+  characterization of the bias introduced due to the
+  mis-specification; and (b) guarantees of geometric convergence of
+  the population EM to the model projection given a suitable
+  initialization.  This geometric convergence rate for population EM
+  implies that the EM algorithm based on $n$ samples converges to an
+  estimate with $1/\sqrt{n}$ accuracy.  We validate our theoretical
+  findings in different cases via several numerical examples.
+</div>
+</li>
+
+</ul>
 <h2>Markov Chain Monte Carlo</h2>
 <ul>
 
@@ -403,178 +569,6 @@ Vaidya walk over the Dikin walk are illustrated in numerical examples.
 </li>
 
 </ul>
-<h2>High-Dimensional Prediction, Inference, and Estimation</h2>
-<ul>
-
-
-<li>
-<b> Curating a COVID-19 Data Repository and Forecasting County-Level Death Counts in the United States </b> <br/>
-Nick Altieri$^{\ddagger}$, Rebecca Barter, James Duncan, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Karl Kumbier, Xiao Li, Robert Netzorg, Briton Park, Chandan Singh, Yan Shuo Tan, Tiffany Tang, Yu Wang, Chao Zhang, Bin Yu <br/>
-<i> Harvard Data Science Review, 2020 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="https://hdsr.mitpress.mit.edu/pub/p6isyf0g/release/4">paper</a>] 
-[<a href="documents/bibtex/clep_bib.txt">bibtex</a>] 
-[<a href="https://covidseverity.com/">website</a>]
-||
-[<a href="documents/slides_poster/clep_slides.pdf">slides</a>]
-[<a href="documents/slides_poster/clep_poster.pdf">poster</a>]
-[<a href="https://www.youtube.com/watch?v=HKIb0HQ3mfU">video</a>]
-[<a href="https://covidseverity.com/assets/blog/">blog</a>]
-[<a href="https://engineering.berkeley.edu/news/2020/04/getting-the-right-equipment-to-the-right-people/">news</a>]
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> Building on Yu and Kumbier's PCS framework and for randomized experiments, we introduce a novel methodology for Stable Discovery of Interpretable Subgroups via Calibration (StaDISC), with large heterogeneous treatment effects. StaDISC was developed during our re-analysis of the 1999-2000 VIGOR study, an 8076 patient randomized controlled trial (RCT), that compared the risk of adverse events from a then newly approved drug, Rofecoxib (Vioxx), to that from an older drug Naproxen. Vioxx was found to, on average and in comparison to Naproxen, reduce the risk of gastrointestinal (GI) events but increase the risk of thrombotic cardiovascular (CVT) events. Applying StaDISC, we fit 18 popular conditional average treatment effect (CATE) estimators for both outcomes and use calibration to demonstrate their poor global performance. However, they are locally well-calibrated and stable, enabling the identification of patient groups with larger than (estimated) average treatment effects. In fact, StaDISC discovers three clinically interpretable subgroups each for the GI outcome (totaling 29.4\% of the study size) and the CVT outcome (totaling 11.0\%).  Complementary analyses of the found subgroups using the 2001-2004 APPROVe study, a separate independently conducted RCT with 2587 patients, provides further supporting evidence for the promise of StaDISC.
-</div>
-</li> 
-
-<li>
-<b> Revisiting Minimum Description Length Complexity in Overparameterized Models </b> <br/>
- <i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Chandan  Singh$^\star$, Bin Yu, Martin Wainwright <br/>
-<i> arxiv preprint, 2021 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="https://arxiv.org/abs/2006.10189">paper</a>] 
-[<a href="documents/bibtex/mdl_bib.txt">bibtex</a>] 
-[<a href="https://github.com/csinva/mdl-complexity">code</a>]
-||
-[<a href="documents/slides_poster/mdl_slides.pdf">slides</a>]
-[<a href="documents/slides_poster/mdl_poster.pdf">poster</a>]
-[<a href="https://www.youtube.com/watch?v=P4S-JQ_fSdo">video</a>]
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> Complexity is a fundamental concept underlying statistical learning theory that aims to inform generalization performance. Parameter count, while successful in low-dimensional settings, is not well-justified for overparameterized settings when the number of parameters is more than the number of training samples. We revisit complexity measures based on Rissanen's principle of minimum description length (MDL) and define a novel MDL-based complexity (MDL-COMP) that remains valid for overparameterized models. MDL-COMP is defined via an optimality criterion over the encodings induced by a good Ridge estimator class.
-We provide an extensive theoretical characterization of MDL-COMP for linear models and kernel methods and show that it is not just a function of parameter count, but rather a function of the singular values of the design or the kernel matrix and the signal-to-noise ratio.
-
-For a linear model with $n$ observations, $d$ parameters, and i.i.d. Gaussian predictors, MDL-COMP scales linearly with $d$ when $d < n$, but the scaling is exponentially smaller---$\log d$ for $d > n$. For kernel methods, we show that MDL-COMP informs minimax in-sample error, and can decrease as the dimensionality of the input increases. We also prove that MDL-COMP upper bounds the in-sample mean squared error (MSE). Via an array of simulations and real-data experiments, we show that a data-driven Prac-MDL-COMP informs hyper-parameter tuning for optimizing test MSE with ridge regression in limited data settings, sometimes improving upon cross-validation and (always) saving computational costs. Finally, our findings also suggest that the recently observed double decent phenomenons in overparameterized models might be a consequence of the choice of non-ideal estimators.
-</div>
-</li>
-
-
-</ul>
-<h2>Mixture Modeling</h2>
-<ul>
-
-<li>
-<b> Instability, Computational Efficiency, and Statistical Accuracy </b> <br/>
-Nhat Ho$^\star$, Koulik Khamaru$^\star$, <i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Michael Jordan, Martin Wainwright, Bin Yu <br/>
- <i> arxiv preprint, 2020 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="https://arxiv.org/abs/2005.11411">paper</a>] 
-[<a href="documents/bibtex/instability_bib.txt">bibtex</a>] ||
-[<a href="documents/slides_poster/instability_slides.pdf">slides</a>]
-[<a href="documents/slides_poster/overspecified_em_poster.pdf">poster</a>] 
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> Many statistical estimators are defined as the fixed point of a
-  data-dependent operator, with estimators based on minimizing a
-  cost function being an important special case.  The limiting
-  performance of such estimators depends on the properties of the
-  population-level operator in the idealized limit of infinitely many
-  samples.  We develop a general framework that yields bounds on
-  statistical accuracy based on the interplay between the
-  deterministic convergence rate of the algorithm at the population
-  level, and its degree of (in)stability when applied to an empirical
-  object based on $n$ samples.  Using this framework, we analyze both
-  stable forms of gradient descent and some higher-order and unstable
-  algorithms, including Newton's method and its cubic-regularized
-  variant, as well as the EM algorithm. We provide applications of our
-  general results to several concrete classes of models, including
-  Gaussian mixture estimation, non-linear regression models, and informative
-  non-response models.  We exhibit cases in which an unstable
-  algorithm can achieve the same statistical accuracy as a stable
-  algorithm in exponentially fewer steps---namely, with the number of
-  iterations being reduced from polynomial to logarithmic in sample
-  size $n$.
-</div>
-</li>
-
-
-
-
-<li>
-<b> Sharp Analysis of Expectation-Maximization for Weakly Identifiable Mixture Models </b> <br/>
-<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
-<i> International Conference on Artificial Intelligence and Statistics (AISTATS) 23, 2020 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="https://arxiv.org/abs/1902.00194">paper</a>]
-[<a href="documents/bibtex/overspecified_scale_em_bib.txt">bibtex</a>] ||
-[<a href="documents/slides_poster/overspecified_scale_em_slides.pdf">slides</a>]
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> 
-We study a class of weakly identifiable location-scale mixture models for which the maximum likelihood estimates based on $n$ i.i.d. samples are known to have lower accuracy than the classical  $n^{- \frac{1}{2}}$ error. We investigate whether the  Expectation-Maximization (EM) algorithm also converges slowly for these models.  We provide a rigorous characterization of EM for fitting a weakly identifiable Gaussian mixture in a univariate setting where we prove that the EM algorithm converges in order $n^{\frac{3}{4}}$ steps and returns estimates that are at a Euclidean distance of order ${ n^{- \frac{1}{8}}}$ and ${ n^{-\frac{1} {4}}}$ from the true location and scale parameter respectively. Establishing the slow rates in the univariate setting requires a novel localization argument with two stages, with each stage involving an epoch-based argument applied to a different surrogate EM operator at the population level.  We demonstrate several multivariate ($d \geq 2$) examples that exhibit the same slow rates as the univariate case. We also prove slow statistical rates in higher dimensions in a special case, when the fitted covariance is constrained to be a multiple of the identity.
-</div>
-</li>
-
-<li>
-<b> Singularity, Misspecification and the Convergence Rate of EM </b> <br/>
-<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
-<i> Annals of Statistics, Volume 48, Number 6 (2020), 3161-3182 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="https://arxiv.org/abs/1810.00828">paper</a>]
-[<a href="documents/bibtex/overspecified_em_bib.txt">bibtex</a>] ||
- [<a href="documents/slides_poster/overspecified_em_slides.pdf">slides</a>]
-[<a href="documents/slides_poster/overspecified_em_poster.pdf">poster</a>]
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> A line of recent work has analyzed the behavior of the
-Expectation-Maximization (EM) algorithm in the well-specified setting,
-in which the population likelihood is locally strongly concave around
-its maximizing argument.  Examples include suitably separated Gaussian
-mixture models and mixtures of linear regressions.  We consider
-over-specified settings in which the number of fitted components is
-larger than the number of components in the true distribution. Such
-mis-specified settings can lead to singularity in the Fisher
-information matrix, and moreover, the maximum likelihood estimator
-based on $n$ i.i.d. samples in $d$ dimensions can have a non-standard
-$\mathcal{O}((d/n)^{\frac{1}{4}})$ rate of convergence.  Focusing on
-the simple setting of two-component mixtures fit to a $d$-dimensional
-Gaussian distribution, we study the behavior of the EM algorithm both
-when the mixture weights are different (unbalanced case), and are
-equal (balanced case). Our analysis reveals a sharp distinction
-between these two cases: in the former, the EM algorithm converges
-geometrically to a point at Euclidean distance of
-$\mathcal{O}((d/n)^{\frac{1}{2}})$ from the true parameter, whereas in
-the latter case, the convergence rate is exponentially slower, and the
-fixed point has a much lower $\mathcal{O}((d/n)^{\frac{1}{4}})$
-accuracy.  Analysis of this singular case requires the introduction of
-some novel techniques: in particular, we make use of a careful form of
-localization in the associated empirical process, and develop a
-recursive argument to progressively sharpen the statistical rate.
-</div>
-</li>
-
-
-<li>
-<b> Theoretical Guarantees for EM Under Misspecified Gaussian Mixture Models </b> <br/>
-<i> <b>R</b>aaz <b>D</b>wivedi</i>$^\star$, Nhat Ho$^\star$, Koulik Khamaru$^\star$,  Michael Jordan, Martin Wainwright, Bin Yu <br/>
-<i> Advances in Neural Information Processing Systems (NeurIPS) 32, 2018 </i> <br/>
-[<a href="javascript:void(0)" onclick="showAbstract(this)" class="title">abstract</a>] 
-[<a href="http://papers.nips.cc/paper/8176-theoretical-guarantees-for-em-under-misspecified-gaussian-mixture-models">paper</a>]
-[<a href="documents/bibtex/misspecified_em_bib.txt">bibtex</a>] ||
-[<a href="documents/slides_poster/misspecified_em_poster.pdf">poster</a>]
-<br/><br/>
-<div class="abs">
-<b>Abstract.</b> Recent years have witnessed substantial progress in understanding
-  the behavior of EM for mixture models that are correctly specified.
-  Given that model mis-specification is common in practice, it is
-  important to understand EM in this more general setting.  We provide
-  non-asymptotic guarantees for the population and sample-based EM
-  algorithms when used to estimate parameters of certain mis-specified
-  Gaussian mixture models.  Due to mis-specification, the EM iterates
-  no longer converge to the true model and instead converge to the
-  projection of the true model onto the fitted model class.  We
-  provide two classes of theoretical guarantees: (a) a
-  characterization of the bias introduced due to the
-  mis-specification; and (b) guarantees of geometric convergence of
-  the population EM to the model projection given a suitable
-  initialization.  This geometric convergence rate for population EM
-  implies that the EM algorithm based on $n$ samples converges to an
-  estimate with $1/\sqrt{n}$ accuracy.  We validate our theoretical
-  findings in different cases via several numerical examples.
-</div>
-</li>
-
-</ul>
 <h2>Earlier work</h2>
 <ul>
 
@@ -611,7 +605,7 @@ Vivek Borkar$^\ddagger$, <i> <b>R</b>aaz <b>D</b>wivedi</i>, Neeraja Sahasrabudh
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-11-03 20:42:55 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-11-25 14:59:04 EST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
