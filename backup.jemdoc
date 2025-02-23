@@ -1,0 +1,108 @@
+-- /Sep 1, 3:45--5:00 PM/: [https://www.cam.cornell.edu/events/cam-colloquium-raaz-dwivedi-orie-cornell-university-heartbeats-heartsteps-personalized CAM Colloquium], Cornell, Ithaca!
+-- /Sep 13, 4:30 PM-5:30 PM/: Statistics and Data Science Seminar, Cornell, Ithaca!
+
+-- /Jan 9 (talk)/: Presenting in the ML Ideas Seminar at [https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/ Microsoft Research New England]!
+-- /Jan 10 (talk)/: Presenting in the Statistics Seminar at [http://statistics.ucla.edu/ UCLA]!
+-- /Jan 13 (talk)/: Presenting in the Statistics and Operation Research Seminar at [https://stor.unc.edu/ UNC-Chapel Hill]!
+-- /Jan 18 (talk)/: Presenting in the Statistics and Data Science Seminar at [https://statistics.wharton.upenn.edu/ Wharton, University of Pennsylvania]!
+-- /Jan 20 (talk)/: Presenting in the Statistics Research Seminar at [https://stat.uchicago.edu/ University of Chicago]!
+-- /Jan 25 (talk)/: Presenting in the Operations, Information, and Technology Group at [https://www.gsb.stanford.edu/faculty-research/faculty/academic-areas/operations-information-technology GSB, Stanford University]!
+-- /Jan 30 (talk)/: Presenting in the Statistics Seminar at [https://stat.wisc.edu/ UW Madison]!
+-- /Feb 2 (talk)/: Presenting in the Computer Science Seminar at [https://cs.illinois.edu/ UIUC]!
+-- /Feb 6 (talk)/: Presenting in the Statistics and Data Science Seminar at [https://statistics.yale.edu/ Yale University]!
+-- /Feb 7 (talk)/: Presenting in the Gatsby Computational Neuroscience Unit at [https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit University College London]!
+
+-- /Dec 2, 11:00-11:45 AM (poster)/: Presenting [https://arxiv.org/pdf/2211.08209.pdf On counterfactual inference with unobserved confounding] ([https://abhin-shah.github.io/docs/2022_counterfactual_exp_fam/poster_counterfactual_exp_fam.pdf poster] ) at [https://www.cml-4-impact.vanderschaar-lab.com NeurIPS Workshop] in Room 295-296
+
+-- /Oct 17, 8:00-9:15 AM (talk)/: Presenting 
+[https://www.abstractsonline.com/pp8/\#!/10693/session/258 Counterfactual inference in sequential experimental design] at the [https://meetings.informs.org/wordpress/indianapolis2022/ Informs Annual Meeting, 2022] in Indianapolis!
+-- /Oct 3, 3:00-4:00 PM (talk)/: Speaking at the [https://bliss.eecs.berkeley.edu/Seminar/index.html BLISS seminar], EECS, UC Berkeley!
+-- /Oct 6, 1:00-2:30 PM (talk)/: Speaking at the [https://sites.google.com/site/pengdingpku/teaching?authuser=0 Causal Inference Reading/Research Group], Statistics, UC Berkeley!
+-- /Oct 6, 4:00-5:00 PM (talk)/: Speaking at the [https://isl.stanford.edu/talks/talks/ ISL Colloquium], Stanford University!
+
+-- /Sep 13, 2:30--3:15 PM (talk), 5:15--7:15 PM (poster)/:  Presenting [https://virtual.oxfordabstracts.com/\#/event/2726/submission/188 Counterfactual inference in sequential experimental design] at [https://rss.org.uk/training-events/conference2022/ Royal Statistical Society (RSS) International Conference (2022)], Edinburgh, Scotland! 
+-- /Sep 13, 5:15--7:15 PM (poster)/: Presenting [https://virtual.oxfordabstracts.com/\#/event/2726/submission/226 Near-optimal compression in near-linear time] at the [https://rss.org.uk/training-events/conference2022/ Royal Statistical Society (RSS) International Conference (2022)], Edinburgh, Scotland! 
+- /Jul 2022/: *[https://rss.org.uk/training-events/conference2022/rss-conference-grants-and-bursaries/ Royal Statistical Society (RSS) Conference Grant]* for the [https://www.imsannualmeeting-london2022.com/ RSS International Conference] 2022, Aberdeen
+
+--- Presenting in the [https://cmsa.fas.harvard.edu/symposium-for-mathematical-sciences-at-harvard/ Symposium for Mathematical Sciences at Harvard] (SMaSH) (May 17, 4:30 PM ET)
+-- /Aug 10, 11:05--11:20 AM, Washington DC/: Speaking at the [https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322588 Joint Statistical Meeting] (JSM) ([https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322588 Session 427])!
+-- /June 24, 2022, 1:30--2:30 PM, Cambridge UK/: Speaking at the [http://talks.cam.ac.uk/talk/index/175277  Causal Inference Reading Group] at the University of Cambridge
+-- /June 28, 2022, 4--5:30 PM, London/: Chairing the [https://www.imsannualmeeting-london2022.com/special-sessions New Researchers Group Session] at the [https://www.imsannualmeeting-london2022.com/ IMS Annual Meeting]
+-- /June 30, 2022, 1:30--3:30 PM, London/: Speaking at & chairing the [https://www.imsannualmeeting-london2022.com/sessions Statistical Machine Learning (IS 15) Session] at the [https://www.imsannualmeeting-london2022.com/ IMS Annual Meeting]
+-- /July 4, 2022, 2--2:30 PM, London/: Speaking at the [https://sites.google.com/site/boumedienehamzi/symposium-on-algorithmic-information-theory-and-machine-learning Symposium on Algorithmic Information Theory & Machine Learning] at the [https://www.turing.ac.uk/ Alan Turing Institute]
+
+-- /June 9--10, 2022/: Attending the [https://rldm.org/ Multi-disciplinary Conference on Reinforcement Learning and Decision Making] (RLDM), 2022 at the Brown University
+- /Feb 2022/: Joint work with Susan Murphy and Devavrat Shah on ``[https://arxiv.org/abs/2202.06891 Counterfactual inference in sequential experimental design]'' up on arxiv; also presented at the [https://simons.berkeley.edu/talks/counterfactual-inference-sequential-experiment-design Simons workshop on Learning from Interventions] ([https://www.youtube.com/watch?v=X5bhzwtPLM8 video])
+- /Jan 2022/: Joint work with Lester Mackey ``[https://arxiv.org/abs/2110.01593 Generalized kernel thinning]'' accepted for presentation at [https://iclr.cc/ ICLR 2022] and [http://approximateinference.org/ AABI 2022]
+- /Nov 2021/: Github repo ``*[https://github.com/microsoft/goodpoints GoodPoints]*'' containing python package for new practical and provable algorithms---[https://arxiv.org/abs/2105.05842 Kernel thinning] and [https://arxiv.org/abs/2111.07941 Compress\+\+]---for generating concise, high-quality summaries of a probability distribution goes live! 
+- /Jan 2022/: Excited to be a teaching fellow along with Eura Shin in [http://people.seas.harvard.edu/~samurphy/teaching/stat234spring2022/syllabus.htm Stat 234: Sequential Decision Making] by Susan Murphy
+-- /Jan 2022/: Will be presenting at the [https://simons.berkeley.edu/workshops/schedule/18913 Foundations of Data Science Institute Retreat 2022]!
+
+- /Oct 2021/: Mentoring in the workshop [https://d3lab.isr.umich.edu/workshop/2020-21-summer-institute-building-just-in-time-adaptive-interventions/ Building Just-in-Time Adaptive Interventions Using Micro-Randomized Trial Designs] for behavioral scientists
+- /Sep 2021/: Joint work ``[https://arxiv.org/abs/2006.10189 Revisiting minimum description length complexity in overparameterized models]'' with Chandan Singh, Bin Yu, and Martin Wainwright up on arxiv
+
+- * Counterfactual Inference in Sequential Experimental Design---[https://www.youtube.com/watch?v=X5bhzwtPLM8 video] | [documents/slides_poster/counterfactual_slides.pdf slides] | [documents/slides_poster/counterfactual_poster.pdf poster] | [https://arxiv.org/abs/2202.06891 preprint]* 
+-- /[https://rss.org.uk/training-events/conference2022/ Royal Statistical Society (RSS) International Conference (2022), Aberdeen]/: Rapid fire talk and poster, Sep 2022
+-- /RL at Harvard workshop/: Poster, Aug 2022
+-- /[https://www.imsannualmeeting-london2022.com/sessions IMS Annual Meeting]/: Invited talk, [https://www.imsannualmeeting-london2022.com/sessions Statistical Machine Learning (IS 15) Session], June 2022
+-- /[http://talks.cam.ac.uk/talk/index/175277  Causal Inference Reading Group, University of Cambridge]/: Invited talk, June 2022
+-- /[https://csml.princeton.edu/datax/datax-workshop-series/synthetic-control-methods Synthetic Control Methods Workshop, Princeton]/: Poster, June 2022
+-- /[https://ctml.berkeley.edu/american-causal-inference-conference-2022 American Causal Inference Conference (ACIC), Berkeley]/: Poster, May 2022
+-- /[https://cmsa.fas.harvard.edu/symposium-for-mathematical-sciences-at-harvard/ Symposium for Mathematical Sciences at Harvard (SMaSH)]/: Poster, May 2022
+-- /[https://sdscon.mit.edu/ MIT Statistics and Data Science Conference (SDSCon)]/: Talk and poster, April 2022
+-- /[https://economics.mit.edu/ MIT, Department of Economics]/: Econometrics Lunch, Mar 2022
+-- /[https://www.eecs.mit.edu/eecs-events/lids-stats-tea-talk-raaz-dwivedi-lids-and-harvard/ MIT, LIDS, Department of EECS]/: LIDS & Stats Tea Talk, Mar 2022
+-- /[https://simons.berkeley.edu/programs/Causality2022 Simons Institute, Berkeley]/: Invited talk in the workshop on [https://simons.berkeley.edu/workshops/causality-workshop1 Learning from interventions], Feb 2022
+-- /[https://statistics.fas.harvard.edu/ Harvard University, Department of Statistics]/: Talk at [https://statistics.fas.harvard.edu/stat-300 Stat 300], Feb 2022
+-- /[https://fodsi.us/ FODSI Meetings]/: Invited talks at [https://simons.berkeley.edu/workshops/schedule/18913 FODSI Retreat], Jan 2022, and Advisory Board Meeting Feb 2022
+
+
+
+- * Near-optimal Compression in Near-linear Time---[https://www.msri.org/workshops/1020/schedules/31041 video] | [documents/slides_poster/near_optimal_slides.pdf slides] | [https://arxiv.org/abs/2110.01593 COLT paper] | [https://arxiv.org/abs/2111.07941 ICLR paper] | [https://github.com/microsoft/goodpoints code]*
+-- /[https://rss.org.uk/training-events/conference2022/ Royal Statistical Society (RSS) International Conference (2022), Aberdeen]/: Poster, Sep 2022
+-- /[https://meetings.siam.org/program.cfm?CONFCODE=uq22 SIAM Conference on Uncertainty Quantification, Atlanta (Hybrid)]/: Invited talk in [https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73573 Kernel methods for numerical integration], Apr 2022
+-- /[https://www.msri.org/workshops/1020  MSRI, Berkeley]/: Invited talk in the workshop on [https://www.msri.org/workshops/1020 Foundations of Stable, Generalizable and Transferable Statistical Learning], Mar 2022
+-- /[https://lidsconf.mit.edu/2022/index.html LIDS Student Conference, MIT]/: Contributed talk in Machine Learning and Statistics Session, Jan 2022
+
+- * (Generalized) Kernel Thinning---[http://www.learningtheory.org/colt2021/virtual/poster_1266.html video] | [documents/slides_poster/kt_slides.pdf slides] | [documents/slides_poster/kt_poster.pdf poster] | [https://arxiv.org/abs/2105.05842 COLT paper] | [https://arxiv.org/abs/2110.01593, ICLR paper] | [https://github.com/microsoft/goodpoints code] * 
+-- /[https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322588 Joint Statistical Meeting (JSM)]/: Contributed talk, Aug 2022
+-- /[https://iclr.cc/Conferences/2022 International Conference on Learning Theory] (ICLR)/: Contributed poster (virtual), Apr 2022
+-- /[http://approximateinference.org/accepted/ Advances in Approximate Bayesian Inference] (AABI)/: Contributed poster (virtual), Feb 2022
+
+
+
+- * Revisiting Minimum Description Length Complexity in Overparameterized Models---[https://www.youtube.com/watch?v=P4S-JQ_fSdo video] | [documents/slides_poster/mdl_slides.pdf slides] | [documents/slides_poster/mdl_poster.pdf poster] | [https://arxiv.org/abs/2006.10189 preprint] *
+-- [https://sites.google.com/site/boumedienehamzi/symposium-on-algorithmic-information-theory-and-machine-learning Symp. on Algorithmic Information Theory & Machine Learning], [https://www.turing.ac.uk/ Alan Turing Institute]: Invited talk, July 2022
+
+
+- * Pointers for selected older talks * 
+-- Non-asymptotic Guarantees for High-Dimensional Sampling---[documents/slides_poster/mcmc_slides.pdf slides] | [http://jmlr.org/papers/v20/19-306.html JMLR paper (MALA)] | [https://jmlr.org/papers/v21/19-441.html JMLR paper (HMC)] | [https://jmlr.org/papers/v19/18-158.html JMLR paper (Vaidya/John walks)]
+-- Stable Discovery of Interpretable Subgroups in Causal Studies---[documents/slides_poster/stadisc_slides.pdf slides] | [documents/slides_poster/stadisc_poster.pdf poster] | [https://arxiv.org/abs/2008.10109 Int. Stat. Review paper]
+
+%%%%%%%%%% 
+- * Kernel Thinning * ([https://arxiv.org/abs/2105.05842 COLT paper] | [https://arxiv.org/abs/2110.01593, ICLR paper] | [documents/slides_poster/kt_slides.pdf slides] | [documents/slides_poster/kt_poster.pdf poster] | [https://github.com/microsoft/goodpoints code])
+-- /Harvard University/: Invited talk at Finale Doshi-Velez's Data to Actionable Knowledge Lab ([https://dtak.github.io/ DTAK]), Oct 2021
+-- /Alan Turing Institute/: Invited talk at the Data-Centric Engineering Reading Group ([https://sites.google.com/view/dce-reading-group DCE]), Sep 2021
+-- /Harvard University Statistics Dept/: Talk at [https://statistics.fas.harvard.edu/stat-300 Stat 300], Sep 2021
+-- /Monte Carlo Methods and Applications/ ([https://www.uni-mannheim.de/mcm-2021/ MCM]), Contributed talk, Sep, 2021
+-- /World Meeting of the International Society for Bayesian Analysis/ ([https://events.stat.uconn.edu/ISBA2021/ ISBA]), Contributed talk, Aug 2021
+-- /The Bayesian Young Statisticians Meeting/ ([https://events.stat.uconn.edu/BAYSM2021/ BAYSM]), Contributed talk, Aug 2021
+-- /The Conference on Learning Theory/ ([http://learningtheory.org/colt2021/ COLT]), Contributed talk, Aug 2021
+-- /Subset Selection in Machine Learning Workshop, International Conference on Machine Learning/ ([https://sites.google.com/view/icml-2021-subsetml/home Subset ML, ICML]),  Contributed talk, July 2021
+
+- * Revisiting Minimum Description Length Complexity in Overparameterized Models * ([https://arxiv.org/abs/2006.10189 preprint] | [documents/slides_poster/mdl_slides.pdf slides] | [documents/slides_poster/mdl_poster.pdf poster])
+-- /Collaborations on the Theoretical Foundations of Deep Learning/ [https://deepfoundations.ai/ deepfoundations.ai]: Invited talk, Nov 2021
+-- /IEEE North American School of Information Theory/ ([https://conferences.ece.ubc.ca/nasit2021/ NASIT]): Contributed poster, June 2021
+-- /Workshop on the Theory of Overparameterized Machine Learning/ ([https://topml.rice.edu/ TOPML]): Contributed talk, Apr 2021
+-- /[https://statistics.berkeley.edu/ UC Berkeley Statistics Dept]/: Guest Lecture in Stat 212 (Information theory and statistics), Apr 2021
+
+- * Non-asymptotic Guarantees for High-Dimensional Sampling * ([http://jmlr.org/papers/v20/19-306.html JMLR paper (MALA)] | [https://jmlr.org/papers/v21/19-441.html JMLR paper (HMC)] | [https://jmlr.org/papers/v19/18-158.html JMLR paper (Vaidya/John walks)] | [documents/slides_poster/mcmc_slides.pdf slides])
+-- /Harvard University/: Invited talk at Finale Doshi-Velez's Data to Actionable Knowledge Lab Meeting ([https://dtak.github.io/ DTAK]), Oct 2021
+-- /Harvard University and MIT/: Invited talk at Devavrat Shah and Susan Murphy's Group Meetings, Feb 2021
+-- /Microsoft Research New England/ ([https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/ MSR]): Invited talk, Jan 2021
+-- /[https://www.simonsfoundation.org/flatiron/ Flatiron Institute]/: Invited talk, Jan 2021
+-- /[https://eecs.berkeley.edu/ UC Berkeley EECS Dept]/: Dissertation talk, Aug 2021
+
+- * Stable Discovery of Interpretable Subgroups in Causal Studies *  ([https://arxiv.org/abs/2008.10109 Int. Stat. Review paper] | [documents/slides_poster/stadisc_slides.pdf slides] | [documents/slides_poster/stadisc_poster.pdf poster])
+-- /Harvard University and MIT/: Invited talk at Devavrat Shah and Susan Murphy's Group Meetings, Feb 2021
+-- /Microsoft Research New England/ ([https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/ MSR]): Invited talk, Jan 2021
